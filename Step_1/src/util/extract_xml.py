@@ -1,11 +1,8 @@
-def extract_xml_tag(content: str, tag: str) -> str:
-    start_tag = f"<{tag}>"
-    end_tag = f"</{tag}>"
-    start_index = content.find(start_tag)
-    if start_index == -1:
-        return None
-    end_index = content.find(end_tag, start_index + len(start_tag))
-    if end_index == -1:
-        return None
+import re
+from typing import Optional
 
-    return content[start_index + len(start_tag) : end_index].strip()
+def extract_xml_tag(text: str, tag: str) -> Optional[str]:
+    """Extract content from XML-like tags in text."""
+    pattern = f"<{tag}>(.*?)</{tag}>"
+    match = re.search(pattern, text, re.DOTALL)
+    return match.group(1).strip() if match else None

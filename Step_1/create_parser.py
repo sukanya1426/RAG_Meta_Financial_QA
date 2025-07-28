@@ -13,7 +13,7 @@ def create_parser():
     path_arg_parent.add_argument(
         "-p",
         "--path",
-        type=str,
+        type=lambda x: x.strip('"\''),  # Strip quotes if present
         required=False,
         help="Path to a directory containing documents to index.",
     )
@@ -32,7 +32,7 @@ def create_parser():
     parser.add_argument(
         "-p",
         "--path",
-        type=str,
+        type=lambda x: x.strip('"\''),  # Strip quotes if present
         required=False,
         help="Path to a directory containing documents to index.",
     )
@@ -64,5 +64,11 @@ def create_parser():
     # "Query" command
     query_parser = subparsers.add_parser("query", help="Query the documents")
     query_parser.add_argument("prompt", type=str, help="What to search for.")
+
+    # "Test Step 1" command
+    subparsers.add_parser(
+        "test_step1",
+        help="Run test queries for Step 1 evaluation"
+    )
 
     return parser

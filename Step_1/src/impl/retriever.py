@@ -1,5 +1,7 @@
-from interface.base_datastore import BaseDatastore
-from interface.base_retriever import BaseRetriever
+from ..interface.base_datastore import BaseDatastore  # Changed
+from ..interface.base_retriever import BaseRetriever  # Changed
+
+# Rest of the code remains the same
 
 class Retriever(BaseRetriever):
     def __init__(self, datastore: BaseDatastore):

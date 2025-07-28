@@ -1,65 +1,181 @@
 import glob
 import json
 import os
+import sys
+from pathlib import Path
 from typing import List
-from rag_pipeline import RAGPipeline
-from Step_1.create_parser import create_parser
-from impl import Datastore, Indexer, Retriever, ResponseGenerator, Evaluator
+from src.rag_pipeline import RAGPipeline
+from create_parser import create_parser
+from src.impl.datastore import Datastore
+from src.impl.indexer import Indexer
+from src.impl.retriever import Retriever
+from src.impl.response_generator import ResponseGenerator
+from src.impl.evaluator import Evaluator
 
-DEFAULT_SOURCE_PATH = "data/source/"  # Directory for Meta's report
+DEFAULT_SOURCE_PATH = "data/source/Meta’s Q1 2024 Financial Report.pdf"
 DEFAULT_EVAL_PATH = "sample_data/eval/sample_questions.json"
 
 def create_pipeline() -> RAGPipeline:
     """Create and return a new RAG Pipeline instance with all components."""
-    datastore = Datastore()
-    indexer = Indexer()
-    retriever = Retriever(datastore=datastore)
-    response_generator = ResponseGenerator()
-    evaluator = Evaluator()  # Optional for Step 1
-    return RAGPipeline(datastore, indexer, retriever, response_generator, evaluator)
+    try:
+        datastore = Datastore()
+        indexer = Indexer()
+        retriever = Retriever(datastore=datastore)
+        response_generator = ResponseGenerator()
+        evaluator = Evaluator()
+        return RAGPipeline(datastore, indexer, retriever, response_generator, evaluator)
+    except Exception as e:
+        print(f"❌ Failed to create pipeline: {str(e)}")
+        raise
 
-def main():
-    parser = create_parser()
-    args = parser.parse_args()
-    pipeline = create_pipeline()
+def get_files_in_directory(source_path: str) -> List[str]:
+    """Get the Meta report file with debug information."""
+    print(f"\n🔍 Checking file: {source_path}")
+    
+    try:
+        path = Path(source_path).expanduser().resolve()
+        if path.exists() and path.is_file() and path.suffix.lower() == '.pdf':
+            print(f"📄 Found file: {path}")
+            return [str(path)]
+        
+        alt_names = [
+            "data/source/Meta's Q1 2024 Financial Report.pdf",
+            "data/source/Meta Q1 2024 Financial Report.pdf",
+            "data/source/Meta’s Q1 2024 Financial Report.pdf"
+        ]
+        for alt_path in alt_names:
+            alt_path = Path(alt_path).expanduser().resolve()
+            if alt_path.exists() and alt_path.is_file() and alt_path.suffix.lower() == '.pdf':
+                print(f"📄 Found alternative file: {alt_path}")
+                return [str(alt_path)]
+        
+        print(f"❌ File not found: {path}")
+        print("❌ Please ensure 'data/source/Meta’s Q1 2024 Financial Report.pdf' exists.")
+        return []
+    
+    except Exception as e:
+        print(f"❌ Error accessing path: {str(e)}")
+        return []
 
-    # Process source paths and eval path
-    source_path = args.path if args.path else DEFAULT_SOURCE_PATH
-    eval_path = args.eval_file if args.eval_file else DEFAULT_EVAL_PATH
-    document_paths = get_files_in_directory(source_path)
-
-    # Execute commands
+def execute_pipeline_commands(args, pipeline: RAGPipeline, document_paths: List[str], eval_path: str):
+    """Execute pipeline commands based on the provided arguments."""
     if args.command in ["reset", "run"]:
-        print("🗑️ Resetting the database...")
+        print("\n🗑️ Resetting the database...")
         pipeline.reset()
 
     if args.command in ["add", "run"]:
-        print(f"🔍 Adding documents: {', '.join(document_paths)}")
+        if not document_paths:
+            print("❌ No documents found to process! Ensure 'data/source/Meta’s Q1 2024 Financial Report.pdf' exists.")
+            return
+        print("\n📝 Adding documents:")
+        for doc in document_paths:
+            print(f"   Processing: {doc}")
         pipeline.add_documents(document_paths)
+        print("\n🔍 Checking datastore content...")
+        try:
+            datastore_content = pipeline.datastore.table.to_pandas()
+            print(f"Datastore contains {len(datastore_content)} items")
+            if len(datastore_content) > 0:
+                print("Sample content:", datastore_content['content'].iloc[0][:100], "...")
+            else:
+                print("⚠️ Warning: Datastore is empty. Check indexer logs for errors.")
+        except Exception as e:
+            print(f"❌ Error checking datastore: {str(e)}")
 
     if args.command in ["evaluate", "run"]:
-        print(f"📊 Evaluating using questions from: {eval_path}")
-        with open(eval_path, "r") as file:
-            sample_questions = json.load(file)
-        pipeline.evaluate(sample_questions)
+        print(f"\n📊 Evaluating using questions from: {eval_path}")
+        try:
+            with open(eval_path, "r") as file:
+                sample_questions = json.load(file)
+            pipeline.evaluate(sample_questions)
+        except FileNotFoundError:
+            print(f"❌ Evaluation file not found: {eval_path}")
+        except json.JSONDecodeError:
+            print(f"❌ Invalid JSON format in evaluation file: {eval_path}")
+        except Exception as e:
+            print(f"❌ Error during evaluation: {str(e)}")
 
     if args.command == "query":
-        print(f"✨ Response: {pipeline.process_query(args.prompt)}")
-    elif args.command == "test_step1":
-        # Run Step 1 test queries
-        test_queries = [
-            {"question": "What was Meta’s revenue in Q1 2024?", "answer": "$36.455 billion"},
-            {"question": "What were the key financial highlights for Meta in Q1 2024?", 
-             "answer": "Revenue: $36.455 billion (27% increase), Net income: $12.369 billion (117% increase), Operating margin: 38%, EPS: $4.71, DAP: 3.24 billion (7% increase)"}
-        ]
-        for query in test_queries:
-            response = pipeline.process_query(query["question"])
-            print(f"Query: {query['question']}\nResponse: {response}\nExpected: {query['answer']}\n")
+        if not args.prompt:
+            print("❌ No query prompt provided!")
+            return
+        print(f"\n❓ Running query: {args.prompt}")
+        try:
+            response = pipeline.process_query(args.prompt)
+            print(f"✨ Response: {response}")
+        except Exception as e:
+            print(f"❌ Error processing query: {str(e)}")
 
-def get_files_in_directory(source_path: str) -> List[str]:
-    if os.path.isfile(source_path):
-        return [source_path]
-    return glob.glob(os.path.join(source_path, "*"))
+    elif args.command == "test_step1":
+        print("\n🧪 Running Step 1 test queries...")
+        print("\n🗑️ Resetting the database...")
+        pipeline.reset()
+        if not document_paths:
+            print("❌ No documents found to process! Ensure 'data/source/Meta’s Q1 2024 Financial Report.pdf' exists.")
+            return
+        print("\n📝 Adding documents:")
+        for doc in document_paths:
+            print(f"   Processing: {doc}")
+        pipeline.add_documents(document_paths)
+        print("\n🔍 Checking datastore content...")
+        try:
+            datastore_content = pipeline.datastore.table.to_pandas()
+            print(f"Datastore contains {len(datastore_content)} items")
+            if len(datastore_content) > 0:
+                print("Sample content:", datastore_content['content'].iloc[0][:100], "...")
+            else:
+                print("⚠️ Warning: Datastore is empty. Check indexer logs for errors.")
+        except Exception as e:
+            print(f"❌ Error checking datastore: {str(e)}")
+
+        test_queries = [
+            {
+                "question": "What was Meta's revenue in Q1 2024?",
+                "answer": "$36.455 billion"
+            },
+            {
+                "question": "What were the key financial highlights for Meta in Q1 2024?",
+                "answer": "Revenue: $36.455 billion (27% increase), Net income: $12.369 billion (117% increase), Operating margin: 38%, EPS: $4.71, DAP: 3.24 billion (7% increase)"
+            }
+        ]
+        outputs = []
+        for query in test_queries:
+            print(f"\n❓ Test Query: {query['question']}")
+            try:
+                response = pipeline.process_query(query["question"])
+                print(f"🤖 Response: {response}")
+                print(f"✅ Expected: {query['answer']}\n")
+                outputs.append({
+                    "query": query["question"],
+                    "response": response,
+                    "expected_answer": query["answer"]
+                })
+            except Exception as e:
+                print(f"❌ Error processing test query: {str(e)}\n")
+                outputs.append({
+                    "query": query["question"],
+                    "response": f"Error: {str(e)}",
+                    "expected_answer": query["answer"]
+                })
+        
+        os.makedirs("outputs", exist_ok=True)
+        output_file = "outputs/step1_outputs.json"
+        try:
+            with open(output_file, "w") as f:
+                json.dump(outputs, f, indent=2)
+            print(f"✅ Outputs saved to {output_file}")
+        except Exception as e:
+            print(f"❌ Error saving outputs: {str(e)}")
+
+def main():
+    """Main entry point of the script."""
+    parser = create_parser()
+    args = parser.parse_args()
+    pipeline = create_pipeline()
+    source_path = args.path if args.path else DEFAULT_SOURCE_PATH
+    eval_path = args.eval_file if args.eval_file else DEFAULT_EVAL_PATH
+    document_paths = get_files_in_directory(source_path)
+    execute_pipeline_commands(args, pipeline, document_paths, eval_path)
 
 if __name__ == "__main__":
     main()

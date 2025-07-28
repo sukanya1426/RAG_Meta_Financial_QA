@@ -1,19 +1,17 @@
 from abc import ABC, abstractmethod
-from typing import Optional
-from pydantic import BaseModel
+from dataclasses import dataclass
 
 
-class EvaluationResult(BaseModel):
+@dataclass
+class EvaluationResult:
     question: str
     response: str
     expected_answer: str
     is_correct: bool
-    reasoning: Optional[str] = None
+    reasoning: str
 
 
 class BaseEvaluator(ABC):
-    """Base interface for the evaluation component."""
-
     @abstractmethod
     def evaluate(
         self, query: str, response: str, expected_answer: str
