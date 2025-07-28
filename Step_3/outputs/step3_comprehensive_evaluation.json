@@ -1,0 +1,2053 @@
+{
+  "evaluation_metadata": {
+    "total_queries": 15,
+    "evaluation_timestamp": "2025-07-28 21:53:33",
+    "pipeline_config": {
+      "indexer_type": "Indexer",
+      "datastore_type": "Datastore",
+      "retriever_type": "AdvancedRetriever",
+      "response_generator_type": "ResponseGenerator",
+      "query_optimization": true,
+      "reranking": true
+    }
+  },
+  "individual_results": [
+    {
+      "query_id": "Q1",
+      "query": "What was Meta's total revenue in Q1 2024?",
+      "expected_answer": "$36.455 billion",
+      "generated_answer": "Meta's total revenue in Q1 2024 was $36,455 million, or $36.455 billion.",
+      "retrieved_docs": [
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_4",
+          "content_type": "text",
+          "query": "What was Meta's total revenue in Q1 2024?",
+          "rerank_score": 1.611389235350835,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 2.1736390590667725,
+            "bm25": 0.9790986778395546,
+            "tfidf": 0.11439294842824885,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "Revenue:, Three Months Ended March 31,.2024 = . Revenue:, Three Months Ended March 31,.2023 = . Advertising, Three Months Ended March 31,.2024 = $ 35,635. Advertising, Three Months Ended March 31,.2023 = $ 28,101. Other revenue, Three Months Ended March 31,.2024 = 380. Other revenue, Three Months Ended March 31,.2023 = 205. Family of Apps, Three Months Ended March 31,.2024 = 36,015. Family of Apps, Three Months Ended March 31,.2023 = 28,306. Reality Labs, Three Months Ended March 31,.2024 = 440. Reality Labs, Three Months Ended March 31,.2023 = 339. Total revenue, Three Months Ended March 31,.2024 = $ 36,455. Total revenue, Three Months Ended March 31,.2023 = $ 28,645. Income (loss) from operations:, Three Months Ended March 31,.2024 = . Income (loss) from operations:, Three Months Ended March 31,.2023 = . Family of Apps, Three Months Ended March 31,.2024 = $",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "What was Meta's total revenue in Q1 2024?",
+          "rerank_score": 1.02274264654931,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 1.1358205080032349,
+            "bm25": 0.29051156980361,
+            "tfidf": 0.10524367264742332,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "What was Meta's total revenue in Q1 2024?",
+          "rerank_score": 0.9904865762126627,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 1.310445785522461,
+            "bm25": 0.0,
+            "tfidf": 0.2420550800245211,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "Revenue, Three Months Ended March 31,.2024 = $ 36,455. Revenue, Three Months Ended March 31,.2023 = $ 28,645. Costs and expenses:, Three Months Ended March 31,.2024 = . Costs and expenses:, Three Months Ended March 31,.2023 = . Cost of revenue, Three Months Ended March 31,.2024 = 6,640. Cost of revenue, Three Months Ended March 31,.2023 = 6,108. Research and development, Three Months Ended March 31,.2024 = 9,978. Research and development, Three Months Ended March 31,.2023 = 9,381. Marketing and sales, Three Months Ended March 31,.2024 = 2,564. Marketing and sales, Three Months Ended March 31,.2023 = 3,044. General and administrative, Three Months Ended March 31,.2024 = 3,455. General and administrative, Three Months Ended March 31,.2023 = 2,885. Total costs and expenses, Three Months Ended March 31,.2024 = 22,637. Total costs and expenses, Three Months Ended March 31,.2023 =",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "What was Meta's total revenue in Q1 2024?",
+          "rerank_score": 0.21591272787379018,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -0.49339577555656433,
+            "bm25": 0.2927027701205923,
+            "tfidf": 0.06730230377511844,
+            "financial": 1.6500000000000001
+          }
+        },
+        {
+          "content": "- \u00b7 Family daily active people (DAP) - DAP was 3.24 billion on average for March 2024, an increase of 7% year-overyear.\n- \u00b7 Ad impressions - Ad impressions delivered across our Family of Apps increased by 20% year-over-year.\n- \u00b7 Average price per ad - Average price per ad increased by 6% year-over-year.\n- \u00b7 Revenue - Total revenue and revenue on a constant currency basis were $36.46 billion and $36.35 billion, respectively, both of which increased by 27% year-over-year.\n- \u00b7 Costs and expenses - Total costs and expenses were $22.64 billion,  an increase of 6% year-over-year.\n- \u00b7 Capital expenditures - Capital expenditures, including principal payments on finance leases, were $6.72 billion.\n- \u00b7 Capital  return  program -  Share  repurchases  were  $14.64  billion  of  our  Class  A  common  stock  and  dividends payments were $1.27 billion.",
+          "source": "data/source/Meta\u2019s Q1 2024 Financial Report.pdf:chunk_3",
+          "content_type": "financial_text",
+          "query": "What was Meta's total revenue in Q1 2024?",
+          "rerank_score": -0.053859529624295965,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.8616043329238892,
+            "bm25": 1.0,
+            "tfidf": 0.0718813569683985,
+            "financial": 2.15
+          }
+        }
+      ],
+      "relevant_docs": [
+        "financial_summary",
+        "revenue_table"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.07692307692307693,
+        "factual_accuracy": 1.0,
+        "completeness": 1.0,
+        "relevance": 0.75,
+        "fluency": 0.9,
+        "bleu_score": 0.08333333333333333,
+        "rouge_1": 0.5,
+        "rouge_2": 0.0,
+        "rouge_l": 0.5
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.7818691527048748,
+        "user_satisfaction": 0.7036822374343873,
+        "task_completion": 1.0,
+        "response_time": 4.8398756980896,
+        "confidence_score": 0.5466666666666667
+      },
+      "timestamp": "2025-07-28T21:53:37.980301",
+      "metadata": {
+        "query_type": "factual",
+        "complexity": "simple",
+        "evaluation_focus": [
+          "factual_accuracy",
+          "exact_match"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q2",
+      "query": "How many daily active people did Meta have in Q1 2024?",
+      "expected_answer": "3.24 billion daily active people",
+      "generated_answer": "Meta had 3.24 billion Family daily active people (DAP) on average for March 2024.",
+      "retrieved_docs": [
+        {
+          "content": "- \u00b7 Family daily active people (DAP) - DAP was 3.24 billion on average for March 2024, an increase of 7% year-overyear.\n- \u00b7 Ad impressions - Ad impressions delivered across our Family of Apps increased by 20% year-over-year.\n- \u00b7 Average price per ad - Average price per ad increased by 6% year-over-year.\n- \u00b7 Revenue - Total revenue and revenue on a constant currency basis were $36.46 billion and $36.35 billion, respectively, both of which increased by 27% year-over-year.\n- \u00b7 Costs and expenses - Total costs and expenses were $22.64 billion,  an increase of 6% year-over-year.\n- \u00b7 Capital expenditures - Capital expenditures, including principal payments on finance leases, were $6.72 billion.\n- \u00b7 Capital  return  program -  Share  repurchases  were  $14.64  billion  of  our  Class  A  common  stock  and  dividends payments were $1.27 billion.",
+          "source": "data/source/Meta\u2019s Q1 2024 Financial Report.pdf:chunk_3",
+          "content_type": "financial_text",
+          "query": "How many daily active people did Meta have in Q1 2024?",
+          "rerank_score": -0.4252931237166312,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -2.1673707962036133,
+            "bm25": 0.38002598551561956,
+            "tfidf": 0.11099132257272834,
+            "financial": 1.6500000000000001
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "How many daily active people did Meta have in Q1 2024?",
+          "rerank_score": -0.7220462983906151,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.065737724304199,
+            "bm25": 0.193822031856388,
+            "tfidf": 0.17195522244645228,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "How many daily active people did Meta have in Q1 2024?",
+          "rerank_score": -2.3471852337013095,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -7.335143566131592,
+            "bm25": 1.0,
+            "tfidf": 0.11248128500885049,
+            "financial": 1.6
+          }
+        },
+        {
+          "content": "17,664. Family of Apps, Three Months Ended March 31,.2023 = $ 11,219. Reality Labs, Three Months Ended March 31,.2024 = (3,846). Reality Labs, Three Months Ended March 31,.2023 = (3,992). Total income from operations, Three Months Ended March 31,.2024 = $ 13,818. Total income from operations, Three Months Ended March 31,.2023 = $ 7,227",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "How many daily active people did Meta have in Q1 2024?",
+          "rerank_score": -3.1054567772304433,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -8.71921443939209,
+            "bm25": 0.0,
+            "tfidf": 0.014859990175950953,
+            "financial": 1.9000000000000001
+          }
+        },
+        {
+          "content": "Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram, and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "How many daily active people did Meta have in Q1 2024?",
+          "rerank_score": -3.2027891649279754,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -9.070603370666504,
+            "bm25": 0.6234383754846294,
+            "tfidf": 0.3306172631164576,
+            "financial": 1.1
+          }
+        }
+      ],
+      "relevant_docs": [
+        "user_metrics_table",
+        "key_metrics"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.35714285714285715,
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "relevance": 0.36363636363636365,
+        "fluency": 0.9,
+        "bleu_score": 0.35714285714285715,
+        "rouge_1": 1.0,
+        "rouge_2": 0.75,
+        "rouge_l": 1.0
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.6673333333333333,
+        "user_satisfaction": 0.6006,
+        "task_completion": 0.7,
+        "response_time": 2.7348885536193848,
+        "confidence_score": 0.39333333333333337
+      },
+      "timestamp": "2025-07-28T21:53:40.716747",
+      "metadata": {
+        "query_type": "factual",
+        "complexity": "simple",
+        "evaluation_focus": [
+          "factual_accuracy",
+          "precision"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q3",
+      "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+      "expected_answer": "Q1 2024: $12.369 billion vs Q1 2023: $5.709 billion (117% increase)",
+      "generated_answer": "Meta's net income in Q1 2024 was $12,369 million, compared to $5,709 million in Q1 2023. This represents a 117% increase.",
+      "retrieved_docs": [
+        {
+          "content": "Cash flows from operating activities, Three Months Ended March 31,.2024 = . Cash flows from operating activities, Three Months Ended March 31,.2023 = . Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2024 = . Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2023 = . Depreciation and amortization, Three Months Ended March 31,.2024 = 3,374. Depreciation and amortization, Three Months Ended March 31,.2023 = 2,524. Share-based compensation, Three Months Ended March 31,.2024 = 3,562. Share-based compensation, Three Months Ended March 31,.2023 = 3,051. Deferred income taxes, Three Months Ended March 31,.2024 = (456). Deferred income taxes, Three Months Ended March 31,.2023 = (620). Impairment",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+          "rerank_score": 1.0630676895257098,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.902018129825592,
+            "bm25": 0.7104563474885615,
+            "tfidf": 0.23097567148888426,
+            "financial": 2.45
+          }
+        },
+        {
+          "content": "Effective tax rate, Three Months Ended March 31,.2023 = 22 %. Effective tax rate, % Change = . Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Net income, % Change = 117 %. Diluted earnings per share (EPS), Three Months Ended March 31,.2024 = $ 4.71. Diluted earnings per share (EPS), Three Months Ended March 31,.2023 = $ 2.20. Diluted earnings per share (EPS), % Change = 114 %",
+          "source": "text_context_6",
+          "content_type": "text",
+          "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+          "rerank_score": 1.0003359857862084,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.8374383449554443,
+            "bm25": 0.3778780155551352,
+            "tfidf": 0.20594095943497887,
+            "financial": 2.7
+          }
+        },
+        {
+          "content": "21,418. Income from operations, Three Months Ended March 31,.2024 = 13,818. Income from operations, Three Months Ended March 31,.2023 = 7,227. Interest and other income, net, Three Months Ended March 31,.2024 = 365. Interest and other income, net, Three Months Ended March 31,.2023 = 80. Income before provision for income taxes, Three Months Ended March 31,.2024 = 14,183. Income before provision for income taxes, Three Months Ended March 31,.2023 = 7,307. Provision for income taxes, Three Months Ended March 31,.2024 = 1,814. Provision for income taxes, Three Months Ended March 31,.2023 = 1,598. Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Earnings per share:, Three Months Ended March 31,.2024 = . Earnings per share:, Three Months Ended March 31,.2023 = . Basic, Three Months Ended March 31,.2024 = $ 4.86. Basic,",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+          "rerank_score": 0.7705825737880485,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.33367645740509033,
+            "bm25": 0.4684084338334567,
+            "tfidf": 0.20006588245098778,
+            "financial": 2.45
+          }
+        },
+        {
+          "content": "17,664. Family of Apps, Three Months Ended March 31,.2023 = $ 11,219. Reality Labs, Three Months Ended March 31,.2024 = (3,846). Reality Labs, Three Months Ended March 31,.2023 = (3,992). Total income from operations, Three Months Ended March 31,.2024 = $ 13,818. Total income from operations, Three Months Ended March 31,.2023 = $ 7,227",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+          "rerank_score": 0.7192389609299903,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.19622254371643066,
+            "bm25": 0.15746068907760266,
+            "tfidf": 0.07589847449344855,
+            "financial": 2.95
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+          "rerank_score": 0.4610169832126096,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -0.5775312185287476,
+            "bm25": 0.35155382931584317,
+            "tfidf": 0.16094008863431933,
+            "financial": 2.9
+          }
+        }
+      ],
+      "relevant_docs": [
+        "income_statement",
+        "yoy_comparison"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.037037037037037035,
+        "factual_accuracy": 0.8333333333333334,
+        "completeness": 0.6,
+        "relevance": 0.8181818181818182,
+        "fluency": 0.9523809523809523,
+        "bleu_score": 0.05263157894736842,
+        "rouge_1": 0.1111111111111111,
+        "rouge_2": 0.0,
+        "rouge_l": 0.18181818181818182
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.7681755520502725,
+        "user_satisfaction": 0.6913579968452453,
+        "task_completion": 1.0,
+        "response_time": 8.724555730819702,
+        "confidence_score": 0.7066666666666667
+      },
+      "timestamp": "2025-07-28T21:53:49.442503",
+      "metadata": {
+        "query_type": "comparison",
+        "complexity": "medium",
+        "evaluation_focus": [
+          "comparison_accuracy",
+          "percentage_calculation"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q4",
+      "query": "How did Meta's Family of Apps revenue compare between Q1 2024 and Q1 2023?",
+      "expected_answer": "Family of Apps revenue increased from $27.32 billion in Q1 2023 to $35.64 billion in Q1 2024",
+      "generated_answer": "I cannot find this information in the provided context. The provided financial data gives total revenue but does not break down revenue specifically for the Family of Apps segment.",
+      "retrieved_docs": [
+        {
+          "content": "- \u00b7 Family daily active people (DAP) - DAP was 3.24 billion on average for March 2024, an increase of 7% year-overyear.\n- \u00b7 Ad impressions - Ad impressions delivered across our Family of Apps increased by 20% year-over-year.\n- \u00b7 Average price per ad - Average price per ad increased by 6% year-over-year.\n- \u00b7 Revenue - Total revenue and revenue on a constant currency basis were $36.46 billion and $36.35 billion, respectively, both of which increased by 27% year-over-year.\n- \u00b7 Costs and expenses - Total costs and expenses were $22.64 billion,  an increase of 6% year-over-year.\n- \u00b7 Capital expenditures - Capital expenditures, including principal payments on finance leases, were $6.72 billion.\n- \u00b7 Capital  return  program -  Share  repurchases  were  $14.64  billion  of  our  Class  A  common  stock  and  dividends payments were $1.27 billion.",
+          "source": "text_context_8",
+          "content_type": "text",
+          "query": "How did Meta's Family of Apps revenue compare between Q1 2024",
+          "rerank_score": 0.85008300200868,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.2588552236557007,
+            "bm25": 0.6336765212390147,
+            "tfidf": 0.054145214910974605,
+            "financial": 2.9
+          }
+        },
+        {
+          "content": "Revenue, Three Months Ended March 31,.2024 = $ 36,455. Revenue, Three Months Ended March 31,.2023 = $ 28,645. Revenue, % Change = 27 %. Costs and expenses, Three Months Ended March 31,.2024 = 22,637. Costs and expenses, Three Months Ended March 31,.2023 = 21,418. Costs and expenses, % Change = 6 %. Income from operations, Three Months Ended March 31,.2024 = $ 13,818. Income from operations, Three Months Ended March 31,.2023 = $ 7,227. Income from operations, % Change = 91 %. Operating margin, Three Months Ended March 31,.2024 = 38 %. Operating margin, Three Months Ended March 31,.2023 = 25 %. Operating margin, % Change = . Provision for income taxes, Three Months Ended March 31,.2024 = $ 1,814. Provision for income taxes, Three Months Ended March 31,.2023 = $ 1,598. Provision for income taxes, % Change = 14 %. Effective tax rate, Three Months Ended March 31,.2024 = 13 %.",
+          "source": "data/source/Meta\u2019s Q1 2024 Financial Report.pdf:chunk_1",
+          "content_type": "financial_text",
+          "query": "How did Meta's Family of Apps revenue compare between Q1 2024",
+          "rerank_score": -0.1773244205151563,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.995613694190979,
+            "bm25": 0.08871033356432013,
+            "tfidf": 0.058289825134368395,
+            "financial": 2.95
+          }
+        },
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_9",
+          "content_type": "text",
+          "query": "How did Meta's Family of Apps revenue compare between Q1 2024",
+          "rerank_score": -1.0236631632359106,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.678952693939209,
+            "bm25": 0.6545137597804394,
+            "tfidf": 0.02859649596442149,
+            "financial": 3.4
+          }
+        },
+        {
+          "content": "We report our financial results for our two reportable segments: Family of Apps (FoA) and Reality Labs (RL). FoA includes Facebook, Instagram, Messenger, WhatsApp, and other services. RL includes our virtual, augmented, and mixed reality related consumer hardware, software, and content.\nThe following table presents our segment information of revenue and income (loss) from operations:",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "How did Meta's Family of Apps revenue compare between Q1 2024",
+          "rerank_score": -1.1905116657550419,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.947922706604004,
+            "bm25": 0.6383934007779488,
+            "tfidf": 0.06039377794715116,
+            "financial": 3.1
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "How did Meta's Family of Apps revenue compare between Q1 2024",
+          "rerank_score": -1.2381512150549896,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.3494343757629395,
+            "bm25": 0.1974285537564154,
+            "tfidf": 0.0817693120738821,
+            "financial": 2.2
+          }
+        }
+      ],
+      "relevant_docs": [
+        "segment_revenue",
+        "family_of_apps_data"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.14705882352941177,
+        "factual_accuracy": 0.16666666666666666,
+        "completeness": 0.0,
+        "relevance": 0.3076923076923077,
+        "fluency": 0.9310344827586207,
+        "bleu_score": 0.2,
+        "rouge_1": 0.35714285714285715,
+        "rouge_2": 0.14285714285714285,
+        "rouge_l": 0.17647058823529413
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.6393191947937011,
+        "user_satisfaction": 0.5753872753143311,
+        "task_completion": 0.7,
+        "response_time": 5.734040260314941,
+        "confidence_score": 0.45999999999999996
+      },
+      "timestamp": "2025-07-28T21:53:55.178080",
+      "metadata": {
+        "query_type": "comparison",
+        "complexity": "medium",
+        "evaluation_focus": [
+          "segment_analysis",
+          "growth_calculation"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q5",
+      "query": "What was Meta's operating margin in Q1 2024 and how does it compare to the industry average?",
+      "expected_answer": "Meta's operating margin was 38% in Q1 2024, significantly above the industry average",
+      "generated_answer": "I cannot find the \"Income (loss) from operations\" for Meta in Q1 2024 to calculate the operating margin. Additionally, the provided context does not contain information about the industry average operating margin.",
+      "retrieved_docs": [
+        {
+          "content": "Cash flows from operating activities, Three Months Ended March 31,.2024 = . Cash flows from operating activities, Three Months Ended March 31,.2023 = . Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2024 = . Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2023 = . Depreciation and amortization, Three Months Ended March 31,.2024 = 3,374. Depreciation and amortization, Three Months Ended March 31,.2023 = 2,524. Share-based compensation, Three Months Ended March 31,.2024 = 3,562. Share-based compensation, Three Months Ended March 31,.2023 = 3,051. Deferred income taxes, Three Months Ended March 31,.2024 = (456). Deferred income taxes, Three Months Ended March 31,.2023 = (620). Impairment",
+          "source": "text_context_7",
+          "content_type": "text",
+          "query": "What was Meta's operating margin in Q1 2024",
+          "rerank_score": -1.581806344691371,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.078386306762695,
+            "bm25": 0.44594548826138825,
+            "tfidf": 0.053745372989066245,
+            "financial": 1.6500000000000001
+          }
+        },
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_6",
+          "content_type": "text",
+          "query": "What was Meta's operating margin in Q1 2024",
+          "rerank_score": -2.3280582426019447,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -7.030131816864014,
+            "bm25": 0.0,
+            "tfidf": 0.026629894291071723,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "Revenue:, Three Months Ended March 31,.2024 = . Revenue:, Three Months Ended March 31,.2023 = . Advertising, Three Months Ended March 31,.2024 = $ 35,635. Advertising, Three Months Ended March 31,.2023 = $ 28,101. Other revenue, Three Months Ended March 31,.2024 = 380. Other revenue, Three Months Ended March 31,.2023 = 205. Family of Apps, Three Months Ended March 31,.2024 = 36,015. Family of Apps, Three Months Ended March 31,.2023 = 28,306. Reality Labs, Three Months Ended March 31,.2024 = 440. Reality Labs, Three Months Ended March 31,.2023 = 339. Total revenue, Three Months Ended March 31,.2024 = $ 36,455. Total revenue, Three Months Ended March 31,.2023 = $ 28,645. Income (loss) from operations:, Three Months Ended March 31,.2024 = . Income (loss) from operations:, Three Months Ended March 31,.2023 = . Family of Apps, Three Months Ended March 31,.2024 = $",
+          "source": "text_context_6",
+          "content_type": "text",
+          "query": "how does it compare to the industry average?",
+          "rerank_score": -2.3280582426019447,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -7.030131816864014,
+            "bm25": 0.0,
+            "tfidf": 0.026629894291071723,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "What was Meta's operating margin in Q1 2024",
+          "rerank_score": -2.8184749388979187,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -8.042530059814453,
+            "bm25": 0.28460894316857505,
+            "tfidf": 0.04923232823812714,
+            "financial": 1.6
+          }
+        },
+        {
+          "content": "- \u00b7 Family daily active people (DAP) - DAP was 3.24 billion on average for March 2024, an increase of 7% year-overyear.\n- \u00b7 Ad impressions - Ad impressions delivered across our Family of Apps increased by 20% year-over-year.\n- \u00b7 Average price per ad - Average price per ad increased by 6% year-over-year.\n- \u00b7 Revenue - Total revenue and revenue on a constant currency basis were $36.46 billion and $36.35 billion, respectively, both of which increased by 27% year-over-year.\n- \u00b7 Costs and expenses - Total costs and expenses were $22.64 billion,  an increase of 6% year-over-year.\n- \u00b7 Capital expenditures - Capital expenditures, including principal payments on finance leases, were $6.72 billion.\n- \u00b7 Capital  return  program -  Share  repurchases  were  $14.64  billion  of  our  Class  A  common  stock  and  dividends payments were $1.27 billion.",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "how does it compare to the industry average?",
+          "rerank_score": -2.8184749388979187,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -8.042530059814453,
+            "bm25": 0.28460894316857505,
+            "tfidf": 0.04923232823812714,
+            "financial": 1.6
+          }
+        }
+      ],
+      "relevant_docs": [
+        "operating_metrics",
+        "margin_analysis"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.17647058823529413,
+        "factual_accuracy": 0.8,
+        "completeness": 0.5,
+        "relevance": 0.47058823529411764,
+        "fluency": 0.921875,
+        "bleu_score": 0.2222222222222222,
+        "rouge_1": 0.46153846153846156,
+        "rouge_2": 0.25,
+        "rouge_l": 0.38461538461538464
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.502,
+        "user_satisfaction": 0.45180000000000003,
+        "task_completion": 0.7,
+        "response_time": 36.62829566001892,
+        "confidence_score": 0.48
+      },
+      "timestamp": "2025-07-28T21:54:31.808406",
+      "metadata": {
+        "query_type": "multi_step",
+        "complexity": "high",
+        "evaluation_focus": [
+          "calculation_accuracy",
+          "contextual_comparison"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q6",
+      "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+      "expected_answer": "Key drivers include advertising revenue growth, increased user engagement, and improved ad pricing",
+      "generated_answer": "Based on Q1 2024 results, the key drivers of Meta's revenue growth are primarily from its Family of Apps segment, specifically advertising revenue.\n\n*   **Total Revenue:** Increased by $7,810 million, from $28,645 million in Q1 2023 to $36,455 million in Q1 2024. This represents a 27% year-over-year change.\n*   **Family of Apps Revenue:** Increased from $28,306 million in Q1 2023 to $36,015 million in Q1 2024, a growth of $7,709 million.\n    *   **Advertising Revenue (within Family of Apps):** Increased from $28,101 million in Q1 2023 to $35,635 million in Q1 2024, a growth of $7,534 million. This is the largest component of revenue growth.\n*   **Other Revenue:** Increased from $205 million in Q1 2023 to $380 million in Q1 2024, a growth of $175 million.\n*   **Reality Labs Revenue:** Increased from $339 million in Q1 2023 to $440 million in Q1 2024, a growth of $101 million.\n\nThe strong momentum within the Family of Apps, particularly advertising, is highlighted as a key factor in the good start to the year.",
+      "retrieved_docs": [
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+          "rerank_score": 0.9438592529433549,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 1.009233832359314,
+            "bm25": 0.31092539645922507,
+            "tfidf": 0.21622913923215353,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+          "rerank_score": -0.1446887994231293,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -2.219569683074951,
+            "bm25": 1.0,
+            "tfidf": 0.08759382537900819,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+          "rerank_score": -1.354164536574632,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.708127021789551,
+            "bm25": 0.7974985197446293,
+            "tfidf": 0.06474428136687257,
+            "financial": 1.6
+          }
+        },
+        {
+          "content": "Revenue:, Three Months Ended March 31,.2024 = . Revenue:, Three Months Ended March 31,.2023 = . Advertising, Three Months Ended March 31,.2024 = $ 35,635. Advertising, Three Months Ended March 31,.2023 = $ 28,101. Other revenue, Three Months Ended March 31,.2024 = 380. Other revenue, Three Months Ended March 31,.2023 = 205. Family of Apps, Three Months Ended March 31,.2024 = 36,015. Family of Apps, Three Months Ended March 31,.2023 = 28,306. Reality Labs, Three Months Ended March 31,.2024 = 440. Reality Labs, Three Months Ended March 31,.2023 = 339. Total revenue, Three Months Ended March 31,.2024 = $ 36,455. Total revenue, Three Months Ended March 31,.2023 = $ 28,645. Income (loss) from operations:, Three Months Ended March 31,.2024 = . Income (loss) from operations:, Three Months Ended March 31,.2023 = . Family of Apps, Three Months Ended March 31,.2024 = $",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+          "rerank_score": -1.8872447820769875,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -6.013513565063477,
+            "bm25": 0.12645205177632785,
+            "tfidf": 0.043650873362142344,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "GAAP revenue, Three Months Ended March 31,.2024 = $ 36,455. GAAP revenue, Three Months Ended March 31,.2023 = $ 28,645. Foreign exchange effect on 2024 revenue using 2023 rates, Three Months Ended March 31,.2024 = (106). Foreign exchange effect on 2024 revenue using 2023 rates, Three Months Ended March 31,.2023 = . Revenue excluding foreign exchange effect, Three Months Ended March 31,.2024 = $ 36,349. Revenue excluding foreign exchange effect, Three Months Ended March 31,.2023 = . GAAP revenue year-over-year change%, Three Months Ended March 31,.2024 = 27 %. GAAP revenue year-over-year change%, Three Months Ended March 31,.2023 = . Revenue excluding foreign exchange effect year-over-year change%, Three Months Ended March 31,.2024 = 27 %. Revenue excluding foreign exchange effect year-over-year change%, Three Months Ended March 31,.2023 = . GAAP advertising revenue, Three Months Ended March 31,.2024 = $ 35,635.",
+          "source": "text_context_7",
+          "content_type": "text",
+          "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+          "rerank_score": -1.986413257168145,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -6.367818832397461,
+            "bm25": 0.48718793509169855,
+            "tfidf": 0.05944861345276571,
+            "financial": 2.15
+          }
+        }
+      ],
+      "relevant_docs": [
+        "revenue_drivers",
+        "business_analysis"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.05747126436781609,
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "relevance": 0.8571428571428571,
+        "fluency": 0.7323529411764707,
+        "bleu_score": 0.06329113924050633,
+        "rouge_1": 0.38461538461538464,
+        "rouge_2": 0.08333333333333333,
+        "rouge_l": 0.38461538461538464
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.8627323913574219,
+        "user_satisfaction": 0.7764591522216797,
+        "task_completion": 0.7,
+        "response_time": 5.363380432128906,
+        "confidence_score": 1.0
+      },
+      "timestamp": "2025-07-28T21:54:37.175320",
+      "metadata": {
+        "query_type": "analytical",
+        "complexity": "high",
+        "evaluation_focus": [
+          "analytical_reasoning",
+          "completeness"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q7",
+      "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+      "expected_answer": "Operating expenses included R&D, sales & marketing, and general & administrative costs",
+      "generated_answer": "Meta's total costs and expenses for Q1 2024 were $22,637 million.\n\nSpecific components of expenses provided for Q1 2024 include:\n*   Depreciation and amortization: $3,374 million\n*   Share-based compensation: $3,562 million",
+      "retrieved_docs": [
+        {
+          "content": "Revenue, Three Months Ended March 31,.2024 = $ 36,455. Revenue, Three Months Ended March 31,.2023 = $ 28,645. Revenue, % Change = 27 %. Costs and expenses, Three Months Ended March 31,.2024 = 22,637. Costs and expenses, Three Months Ended March 31,.2023 = 21,418. Costs and expenses, % Change = 6 %. Income from operations, Three Months Ended March 31,.2024 = $ 13,818. Income from operations, Three Months Ended March 31,.2023 = $ 7,227. Income from operations, % Change = 91 %. Operating margin, Three Months Ended March 31,.2024 = 38 %. Operating margin, Three Months Ended March 31,.2023 = 25 %. Operating margin, % Change = . Provision for income taxes, Three Months Ended March 31,.2024 = $ 1,814. Provision for income taxes, Three Months Ended March 31,.2023 = $ 1,598. Provision for income taxes, % Change = 14 %. Effective tax rate, Three Months Ended March 31,.2024 = 13 %.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+          "rerank_score": 1.0796114137310682,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 1.6099339723587036,
+            "bm25": 0.15994024920348118,
+            "tfidf": 0.10435174991144176,
+            "financial": 1.9000000000000001
+          }
+        },
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "data/source/Meta\u2019s Q1 2024 Financial Report.pdf:chunk_5",
+          "content_type": "financial_text",
+          "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+          "rerank_score": 0.7387577178476261,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -0.13406656682491302,
+            "bm25": 0.8141262247026902,
+            "tfidf": 0.05901858934612507,
+            "financial": 2.9
+          }
+        },
+        {
+          "content": "current, December 31, 2023 = 1,623. Accrued expenses and other current liabilities, March 31, 2024 = 22,640. Accrued expenses and other current liabilities, December 31, 2023 = 25,488. Total current liabilities, March 31, 2024 = 28,101. Total current liabilities, December 31, 2023 = 31,960. Operating lease liabilities, non-current, March 31, 2024 = 17,570. Operating lease liabilities, non-current, December 31, 2023 = 17,226. Long-term debt, March 31, 2024 = 18,387. Long-term debt, December 31, 2023 = 18,385. Long-term income taxes, March 31, 2024 = 7,795. Long-term income taxes, December 31, 2023 = 7,514. Other liabilities, March 31, 2024 = 1,462. Other liabilities, December 31, 2023 = 1,370. Total liabilities, March 31, 2024 = 73,315. Total liabilities, December 31, 2023 = 76,455. Commitments and contingencies, March 31,",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+          "rerank_score": 0.6766857052630013,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.38347989320755005,
+            "bm25": 0.707020475204205,
+            "tfidf": 0.11025752785953344,
+            "financial": 1.6500000000000001
+          }
+        },
+        {
+          "content": "Cash flows from operating activities, Three Months Ended March 31,.2024 = . Cash flows from operating activities, Three Months Ended March 31,.2023 = . Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2024 = . Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2023 = . Depreciation and amortization, Three Months Ended March 31,.2024 = 3,374. Depreciation and amortization, Three Months Ended March 31,.2023 = 2,524. Share-based compensation, Three Months Ended March 31,.2024 = 3,562. Share-based compensation, Three Months Ended March 31,.2023 = 3,051. Deferred income taxes, Three Months Ended March 31,.2024 = (456). Deferred income taxes, Three Months Ended March 31,.2023 = (620). Impairment",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+          "rerank_score": -0.0801600286638996,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.0395770072937012,
+            "bm25": 0.1792101587460693,
+            "tfidf": 0.07245489711375687,
+            "financial": 1.4000000000000001
+          }
+        },
+        {
+          "content": "17,664. Family of Apps, Three Months Ended March 31,.2023 = $ 11,219. Reality Labs, Three Months Ended March 31,.2024 = (3,846). Reality Labs, Three Months Ended March 31,.2023 = (3,992). Total income from operations, Three Months Ended March 31,.2024 = $ 13,818. Total income from operations, Three Months Ended March 31,.2023 = $ 7,227",
+          "source": "text_context_6",
+          "content_type": "text",
+          "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+          "rerank_score": -0.39588282779726963,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.9479215145111084,
+            "bm25": 0.0,
+            "tfidf": 0.021905186714491105,
+            "financial": 1.9000000000000001
+          }
+        }
+      ],
+      "relevant_docs": [
+        "expense_breakdown",
+        "operating_costs"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.09375,
+        "factual_accuracy": 0.8,
+        "completeness": 0.8,
+        "relevance": 0.5,
+        "fluency": 0.7870967741935484,
+        "bleu_score": 0.125,
+        "rouge_1": 0.2727272727272727,
+        "rouge_2": 0.0,
+        "rouge_l": 0.16666666666666666
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.8735894562403361,
+        "user_satisfaction": 0.7862305106163026,
+        "task_completion": 1.0,
+        "response_time": 5.453860521316528,
+        "confidence_score": 0.8066666666666666
+      },
+      "timestamp": "2025-07-28T21:54:42.630992",
+      "metadata": {
+        "query_type": "summary",
+        "complexity": "medium",
+        "evaluation_focus": [
+          "summarization_quality",
+          "completeness"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q8",
+      "query": "What were the key financial highlights for Meta in Q1 2024?",
+      "expected_answer": "Revenue: $36.455B (+27%), Net income: $12.369B (+117%), Operating margin: 38%, DAP: 3.24B (+7%)",
+      "generated_answer": "Based on the provided context, the key financial highlights for Meta in Q1 2024, focusing on cash flow activities, were:\n\n*   **Sales and maturities of marketable debt securities:** $4,625 million in Q1 2024, compared to $534 million in Q1 2023, representing an increase of approximately 766%.\n*   **Acquisitions of businesses and intangible assets:** $(72) million in Q1 2024, compared to $(444) million in Q1 2023, indicating an approximately 83.78% decrease in cash outflow for acquisitions.\n*   **Net cash used in investing activities:** $(8,734) million in Q1 2024, compared to $(6,743) million in Q1 2023, representing an increase of approximately 29.53% in cash used for investing activities.\n*   **Taxes paid related to net share settlement of equity awards:** $(3,162) million in Q1 2024.\n\nThe report also noted a general qualitative highlight that \"Q1 was a good start to the year.\"",
+      "retrieved_docs": [
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "What were the key financial highlights for Meta in Q1 2024?",
+          "rerank_score": 1.8519385712242131,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 2.9339492321014404,
+            "bm25": 0.8396902537846914,
+            "tfidf": 0.25624209958309446,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "What were the key financial highlights for Meta in Q1 2024?",
+          "rerank_score": -1.0095727529562943,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.9812722206115723,
+            "bm25": 1.0,
+            "tfidf": 0.08624090192223006,
+            "financial": 1.6
+          }
+        },
+        {
+          "content": "Meta will host a conference call to discuss the results at 2:00 p.m. PT / 5:00 p.m. ET today. The live webcast of Meta's earnings conference call can be accessed at investor.fb.com, along with the earnings press release, financial tables, and slide presentation. Meta uses the investor.fb.com and about.fb.com/news/ websites as well as Mark Zuckerberg's Facebook Page (facebook.com/ zuck),  Instagram  account  (instagram.com/zuck)  and  Threads  profile  (threads.net/zuck)  as  means  of  disclosing  material  nonpublic information and for complying with its disclosure obligations under Regulation FD.\nFollowing the call, a replay will be available at the same website. Transcripts of conference calls with publishing equity research analysts held today will also be posted to the investor.fb.com website.",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "What were the key financial highlights for Meta in Q1 2024?",
+          "rerank_score": -2.1614266810474043,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -6.394037246704102,
+            "bm25": 0.7271412827513559,
+            "tfidf": 0.2960193129759818,
+            "financial": 0.85
+          }
+        },
+        {
+          "content": "factors affecting the payment of dividends. These and other potential risks and uncertainties that could cause actual results to differ from the results predicted are more fully detailed under the caption \"Risk Factors\" in our Annual Report on Form 10-K filed with the SEC on February 2, 2024, which is available on our Investor Relations website at investor.fb.com and on the SEC website at www.sec.gov.  Additional  information  will  also  be  set  forth  in  our  Quarterly  Report  on  Form  10-Q  for  the  quarter  ended March 31, 2024. In addition, please note that the date of this press release is April 24, 2024, and any forward-looking statements contained herein are based on assumptions that we believe to be reasonable as of this date. We undertake no obligation to update these statements as a result of new information or future events.\nFor a discussion of limitations in the measurement of certain of our community metrics, see the section entitled \"Limitations of Key Metrics and Other Data\" in our most recent quarterly or annual report filed with the SEC.",
+          "source": "text_context_4",
+          "content_type": "text",
+          "query": "What were the key financial highlights for Meta in Q1 2024?",
+          "rerank_score": -2.238523152490014,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -6.690728664398193,
+            "bm25": 0.5678557368251559,
+            "tfidf": 0.10536252708649582,
+            "financial": 1.4000000000000001
+          }
+        },
+        {
+          "content": "March 31,.2023 = (85). Sales and maturities of marketable debt securities, Three Months Ended March 31,.2024 = 4,625. Sales and maturities of marketable debt securities, Three Months Ended March 31,.2023 = 534. Acquisitions of businesses and intangible assets, Three Months Ended March 31,.2024 = (72). Acquisitions of businesses and intangible assets, Three Months Ended March 31,.2023 = (444). Other investing activities, Three Months Ended March 31,.2024 = -. Other investing activities, Three Months Ended March 31,.2023 = 75. Net cash used in investing activities, Three Months Ended March 31,.2024 = (8,734). Net cash used in investing activities, Three Months Ended March 31,.2023 = (6,743). Cash flows from financing activities, Three Months Ended March 31,.2024 = . Cash flows from financing activities, Three Months Ended March 31,.2023 = . Taxes paid related to net share settlement of equity awards, Three Months Ended March 31,.2024 = (3,162). Taxes paid related to",
+          "source": "text_context_8",
+          "content_type": "text",
+          "query": "What were the key financial highlights for Meta in Q1 2024?",
+          "rerank_score": -2.850663351952382,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -7.838033676147461,
+            "bm25": 0.0,
+            "tfidf": 0.03033412337734942,
+            "financial": 1.4000000000000001
+          }
+        }
+      ],
+      "relevant_docs": [
+        "key_highlights",
+        "financial_summary"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.01098901098901099,
+        "factual_accuracy": 0.3333333333333333,
+        "completeness": 0.0,
+        "relevance": 0.7272727272727273,
+        "fluency": 0.7841726618705036,
+        "bleu_score": 0.012658227848101266,
+        "rouge_1": 0.07692307692307693,
+        "rouge_2": 0.0,
+        "rouge_l": 0.07692307692307693
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.7999999999999999,
+        "user_satisfaction": 0.72,
+        "task_completion": 1.0,
+        "response_time": 14.050723791122437,
+        "confidence_score": 1.0
+      },
+      "timestamp": "2025-07-28T21:54:56.684767",
+      "metadata": {
+        "query_type": "summary",
+        "complexity": "medium",
+        "evaluation_focus": [
+          "information_aggregation",
+          "metric_accuracy"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q9",
+      "query": "What trends can be observed in Meta's user growth over recent quarters?",
+      "expected_answer": "Steady growth in daily active people with consistent quarterly increases",
+      "generated_answer": "I cannot find information about specific trends in Meta's user growth over recent quarters in the provided context. The text only states that Meta is \"seeing healthy growth across our apps\" and \"strong momentum within our Family of Apps\" for Q1 2024.",
+      "retrieved_docs": [
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "What trends can be observed in Meta's user growth over recent quarters?",
+          "rerank_score": -0.9061786549110908,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.090275526046753,
+            "bm25": 0.2658918214357101,
+            "tfidf": 0.2897240009912185,
+            "financial": 1.1
+          }
+        },
+        {
+          "content": "Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram, and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "What trends can be observed in Meta's user growth over recent quarters?",
+          "rerank_score": -1.6807239577701771,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.982059478759766,
+            "bm25": 0.1862733454331305,
+            "tfidf": 0.303543315836311,
+            "financial": 1.1
+          }
+        },
+        {
+          "content": "Meta will host a conference call to discuss the results at 2:00 p.m. PT / 5:00 p.m. ET today. The live webcast of Meta's earnings conference call can be accessed at investor.fb.com, along with the earnings press release, financial tables, and slide presentation. Meta uses the investor.fb.com and about.fb.com/news/ websites as well as Mark Zuckerberg's Facebook Page (facebook.com/ zuck),  Instagram  account  (instagram.com/zuck)  and  Threads  profile  (threads.net/zuck)  as  means  of  disclosing  material  nonpublic information and for complying with its disclosure obligations under Regulation FD.\nFollowing the call, a replay will be available at the same website. Transcripts of conference calls with publishing equity research analysts held today will also be posted to the investor.fb.com website.",
+          "source": "text_context_8",
+          "content_type": "text",
+          "query": "What trends can be observed in Meta's user growth over recent quarters?",
+          "rerank_score": -3.7647112793571873,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -9.956969261169434,
+            "bm25": 0.6380815644837738,
+            "tfidf": 0.05704022659762173,
+            "financial": 0.25
+          }
+        },
+        {
+          "content": "This  press  release  contains  forward-looking  statements  regarding  our  future  business  plans  and  expectations.  These  forwardlooking statements are only predictions and may differ materially from actual results due to a variety of factors including: the impact of macroeconomic conditions on our business and financial results, including as a result of geopolitical events; our ability to  retain  or  increase  users  and  engagement  levels;  our  reliance  on  advertising  revenue;  our  dependency  on  data  signals  and mobile operating systems, networks, and standards that we do not control; changes to the content or application of third-party policies that impact our advertising practices; risks associated with new products and changes to existing products as well as other new business initiatives, including our artificial intelligence initiatives and metaverse efforts; our emphasis on community growth  and  engagement  and  the  user  experience  over  short-term  financial  results;  maintaining  and  enhancing  our  brand  and reputation;  our  ongoing  privacy,  safety,  security,  and  content  review  efforts;  competition;  risks  associated  with  government actions  that  could  restrict  access  to  our  products  or  impair  our  ability  to  sell  advertising  in  certain  countries;  litigation  and government inquiries; privacy, legislative, and regulatory concerns or developments; risks associated with acquisitions; security breaches;  our  ability  to  manage  our  scale  and  geographically-dispersed  operations;  and  market  conditions  or  other",
+          "source": "text_context_8",
+          "content_type": "text",
+          "query": "What trends can be observed in meta's user increase over recent quarters?",
+          "rerank_score": -3.7647112793571873,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -9.956969261169434,
+            "bm25": 0.6380815644837738,
+            "tfidf": 0.05704022659762173,
+            "financial": 0.25
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "What trends can be observed in Meta's user growth over recent quarters?",
+          "rerank_score": -3.9793032509422352,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -10.769437789916992,
+            "bm25": 0.43388746009824913,
+            "tfidf": 0.0,
+            "financial": 1.1
+          }
+        }
+      ],
+      "relevant_docs": [
+        "user_trends",
+        "quarterly_growth"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.044444444444444446,
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "relevance": 0.5833333333333334,
+        "fluency": 0.9404761904761905,
+        "bleu_score": 0.05405405405405406,
+        "rouge_1": 0.2,
+        "rouge_2": 0.0,
+        "rouge_l": 0.2
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.8311470130284627,
+        "user_satisfaction": 0.7480323117256165,
+        "task_completion": 1.0,
+        "response_time": 3.7093160152435303,
+        "confidence_score": 0.6133333333333334
+      },
+      "timestamp": "2025-07-28T21:55:00.395822",
+      "metadata": {
+        "query_type": "trend",
+        "complexity": "high",
+        "evaluation_focus": [
+          "trend_identification",
+          "temporal_reasoning"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q10",
+      "query": "How has Meta's investment in Reality Labs affected profitability?",
+      "expected_answer": "Reality Labs continues to show losses while Family of Apps maintains strong profitability",
+      "generated_answer": "Meta's investment in Reality Labs has resulted in operating losses, thereby negatively affecting Meta's overall profitability.\n\nFor the three months ended March 31, 2024, Reality Labs reported an operating loss of $3,846 million. This is an improvement compared to the operating loss of $3,992 million for the three months ended March 31, 2023. The loss decreased by $146 million, or approximately 3.66%.",
+      "retrieved_docs": [
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_4",
+          "content_type": "text",
+          "query": "How has Meta's investment in Reality Labs affected profitability?",
+          "rerank_score": -0.8509408133470282,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.3379318714141846,
+            "bm25": 1.0,
+            "tfidf": 0.09487956812430541,
+            "financial": 1.1
+          }
+        },
+        {
+          "content": "Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram, and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.",
+          "source": "text_context_5",
+          "content_type": "text",
+          "query": "How has Meta's investment in Reality Labs affected profitability?",
+          "rerank_score": -1.360452246014038,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.9036664962768555,
+            "bm25": 0.48703507522337347,
+            "tfidf": 0.39503722460573876,
+            "financial": 2.1
+          }
+        },
+        {
+          "content": "We report our financial results for our two reportable segments: Family of Apps (FoA) and Reality Labs (RL). FoA includes Facebook, Instagram, Messenger, WhatsApp, and other services. RL includes our virtual, augmented, and mixed reality related consumer hardware, software, and content.\nThe following table presents our segment information of revenue and income (loss) from operations:",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "How has Meta's investment in Reality Labs affected profitability?",
+          "rerank_score": -1.4292958080882463,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.733117580413818,
+            "bm25": 0.8989890124898655,
+            "tfidf": 0.1280264730320976,
+            "financial": 3.1
+          }
+        },
+        {
+          "content": "Meta will host a conference call to discuss the results at 2:00 p.m. PT / 5:00 p.m. ET today. The live webcast of Meta's earnings conference call can be accessed at investor.fb.com, along with the earnings press release, financial tables, and slide presentation. Meta uses the investor.fb.com and about.fb.com/news/ websites as well as Mark Zuckerberg's Facebook Page (facebook.com/ zuck),  Instagram  account  (instagram.com/zuck)  and  Threads  profile  (threads.net/zuck)  as  means  of  disclosing  material  nonpublic information and for complying with its disclosure obligations under Regulation FD.\nFollowing the call, a replay will be available at the same website. Transcripts of conference calls with publishing equity research analysts held today will also be posted to the investor.fb.com website.",
+          "source": "text_context_6",
+          "content_type": "text",
+          "query": "How has Meta's investment in Reality Labs affected profitability?",
+          "rerank_score": -1.5595174625270274,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.212459087371826,
+            "bm25": 0.6223700326872966,
+            "tfidf": 0.3324910949991945,
+            "financial": 1.6
+          }
+        },
+        {
+          "content": "17,664. Family of Apps, Three Months Ended March 31,.2023 = $ 11,219. Reality Labs, Three Months Ended March 31,.2024 = (3,846). Reality Labs, Three Months Ended March 31,.2023 = (3,992). Total income from operations, Three Months Ended March 31,.2024 = $ 13,818. Total income from operations, Three Months Ended March 31,.2023 = $ 7,227",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "How has Meta's investment in Reality Labs affected profitability?",
+          "rerank_score": -1.970477131435913,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.8392653465271,
+            "bm25": 0.28142240340875485,
+            "tfidf": 0.16582270881825367,
+            "financial": 1.35
+          }
+        }
+      ],
+      "relevant_docs": [
+        "reality_labs_results",
+        "segment_profitability"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.07692307692307693,
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "relevance": 0.6666666666666666,
+        "fluency": 0.8467741935483871,
+        "bleu_score": 0.09302325581395349,
+        "rouge_1": 0.3076923076923077,
+        "rouge_2": 0.08333333333333333,
+        "rouge_l": 0.3076923076923077
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.9451441971460979,
+        "user_satisfaction": 0.8506297774314882,
+        "task_completion": 1.0,
+        "response_time": 5.076123476028442,
+        "confidence_score": 0.9666666666666668
+      },
+      "timestamp": "2025-07-28T21:55:05.474183",
+      "metadata": {
+        "query_type": "causal",
+        "complexity": "high",
+        "evaluation_focus": [
+          "causal_reasoning",
+          "segment_analysis"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q11",
+      "query": "What was Meta's earnings per share (EPS) in Q1 2024?",
+      "expected_answer": "$4.71 per share",
+      "generated_answer": "Meta's diluted earnings per share (EPS) in Q1 2024 (Three Months Ended March 31, 2024) was $4.71.",
+      "retrieved_docs": [
+        {
+          "content": "Effective tax rate, Three Months Ended March 31,.2023 = 22 %. Effective tax rate, % Change = . Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Net income, % Change = 117 %. Diluted earnings per share (EPS), Three Months Ended March 31,.2024 = $ 4.71. Diluted earnings per share (EPS), Three Months Ended March 31,.2023 = $ 2.20. Diluted earnings per share (EPS), % Change = 114 %",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "What was Meta's earnings per share (EPS) in Q1 2024?",
+          "rerank_score": 1.3269337498581462,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 1.588719367980957,
+            "bm25": 1.0,
+            "tfidf": 0.4096400177717551,
+            "financial": 1.9000000000000001
+          }
+        },
+        {
+          "content": "Three Months Ended March 31,.2023 = $ 2.21. Diluted, Three Months Ended March 31,.2024 = $ 4.71. Diluted, Three Months Ended March 31,.2023 = $ 2.20. Weighted-average shares used to compute earnings per share:, Three Months Ended March 31,.2024 = . Weighted-average shares used to compute earnings per share:, Three Months Ended March 31,.2023 = . Basic, Three Months Ended March 31,.2024 = 2,545. Basic, Three Months Ended March 31,.2023 = 2,587. Diluted, Three Months Ended March 31,.2024 = 2,625. Diluted, Three Months Ended March 31,.2023 = 2,596",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "What was Meta's earnings per share (EPS) in Q1 2024?",
+          "rerank_score": 0.7800943342733637,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.8787609934806824,
+            "bm25": 0.4959684607425371,
+            "tfidf": 0.16398547796970966,
+            "financial": 1.4000000000000001
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "What was Meta's earnings per share (EPS) in Q1 2024?",
+          "rerank_score": 0.7487870728671346,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.7336611151695251,
+            "bm25": 0.0,
+            "tfidf": 0.16881751199549666,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "2024 = . Commitments and contingencies, December 31, 2023 = . Stockholders' equity:, March 31, 2024 = . Stockholders' equity:, December 31, 2023 = . Common stock and additional paid-in capital, March 31, 2024 = 75,391. Common stock and additional paid-in capital, December 31, 2023 = 73,253. Accumulated other comprehensive loss, March 31, 2024 = (2,655). Accumulated other comprehensive loss, December 31, 2023 = (2,155). Retained earnings, March 31, 2024 = 76,793. Retained earnings, December 31, 2023 = 82,070. Total stockholders' equity, March 31, 2024 = 149,529. Total stockholders' equity, December 31, 2023 = 153,168. Total liabilities and stockholders' equity, March 31, 2024 = $ 222,844. Total liabilities and stockholders' equity, December 31, 2023 = $ 229,623",
+          "source": "text_context_4",
+          "content_type": "text",
+          "query": "What was Meta's earnings per share (EPS) in Q1 2024?",
+          "rerank_score": -0.5137831267331523,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -2.025214433670044,
+            "bm25": 0.0,
+            "tfidf": 0.10868431156576835,
+            "financial": 1.4000000000000001
+          }
+        },
+        {
+          "content": "Meta will host a conference call to discuss the results at 2:00 p.m. PT / 5:00 p.m. ET today. The live webcast of Meta's earnings conference call can be accessed at investor.fb.com, along with the earnings press release, financial tables, and slide presentation. Meta uses the investor.fb.com and about.fb.com/news/ websites as well as Mark Zuckerberg's Facebook Page (facebook.com/ zuck),  Instagram  account  (instagram.com/zuck)  and  Threads  profile  (threads.net/zuck)  as  means  of  disclosing  material  nonpublic information and for complying with its disclosure obligations under Regulation FD.\nFollowing the call, a replay will be available at the same website. Transcripts of conference calls with publishing equity research analysts held today will also be posted to the investor.fb.com website.",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "What was Meta's earnings per share (EPS) in Q1 2024?",
+          "rerank_score": -0.9933669359116147,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.423088550567627,
+            "bm25": 0.6357345467370389,
+            "tfidf": 0.31289898420784257,
+            "financial": 0.85
+          }
+        }
+      ],
+      "relevant_docs": [
+        "eps_data",
+        "per_share_metrics"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.1111111111111111,
+        "factual_accuracy": 1.0,
+        "completeness": 1.0,
+        "relevance": 0.8,
+        "fluency": 0.9,
+        "bleu_score": 0.11764705882352941,
+        "rouge_1": 0.6666666666666666,
+        "rouge_2": 0.5,
+        "rouge_l": 0.6666666666666666
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.8170803136825562,
+        "user_satisfaction": 0.7353722823143006,
+        "task_completion": 1.0,
+        "response_time": 3.7459843158721924,
+        "confidence_score": 0.5800000000000001
+      },
+      "timestamp": "2025-07-28T21:55:09.221693",
+      "metadata": {
+        "query_type": "factual",
+        "complexity": "simple",
+        "evaluation_focus": [
+          "metric_precision",
+          "exact_match"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q12",
+      "query": "How much did Meta spend on research and development in Q1 2024?",
+      "expected_answer": "Research and development expenses for Q1 2024",
+      "generated_answer": "Meta spent $9,978 million on research and development in Q1 2024.",
+      "retrieved_docs": [
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "How much did Meta spend on research and development in Q1 2024?",
+          "rerank_score": 0.3779752712310461,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -0.7862910628318787,
+            "bm25": 1.0,
+            "tfidf": 0.0832779757586502,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "How much did Meta spend on research and development in Q1 2024?",
+          "rerank_score": -0.08054833067046169,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.6784297227859497,
+            "bm25": 0.5200592910665838,
+            "tfidf": 0.2053915711818161,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "17,664. Family of Apps, Three Months Ended March 31,.2023 = $ 11,219. Reality Labs, Three Months Ended March 31,.2024 = (3,846). Reality Labs, Three Months Ended March 31,.2023 = (3,992). Total income from operations, Three Months Ended March 31,.2024 = $ 13,818. Total income from operations, Three Months Ended March 31,.2023 = $ 7,227",
+          "source": "text_context_4",
+          "content_type": "text",
+          "query": "How much did Meta spend on research and development in Q1 2024?",
+          "rerank_score": -0.9701378510680634,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.382000684738159,
+            "bm25": 0.0,
+            "tfidf": 0.017749485514668577,
+            "financial": 1.9000000000000001
+          }
+        },
+        {
+          "content": "Revenue, Three Months Ended March 31,.2024 = $ 36,455. Revenue, Three Months Ended March 31,.2023 = $ 28,645. Costs and expenses:, Three Months Ended March 31,.2024 = . Costs and expenses:, Three Months Ended March 31,.2023 = . Cost of revenue, Three Months Ended March 31,.2024 = 6,640. Cost of revenue, Three Months Ended March 31,.2023 = 6,108. Research and development, Three Months Ended March 31,.2024 = 9,978. Research and development, Three Months Ended March 31,.2023 = 9,381. Marketing and sales, Three Months Ended March 31,.2024 = 2,564. Marketing and sales, Three Months Ended March 31,.2023 = 3,044. General and administrative, Three Months Ended March 31,.2024 = 3,455. General and administrative, Three Months Ended March 31,.2023 = 2,885. Total costs and expenses, Three Months Ended March 31,.2024 = 22,637. Total costs and expenses, Three Months Ended March 31,.2023 =",
+          "source": "text_context_7",
+          "content_type": "text",
+          "query": "How much did Meta spend on research and development in Q1 2024?",
+          "rerank_score": -1.7621922983156224,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.116389274597168,
+            "bm25": 0.0,
+            "tfidf": 0.02908941015496727,
+            "financial": 1.4000000000000001
+          }
+        },
+        {
+          "content": "Revenue:, Three Months Ended March 31,.2024 = . Revenue:, Three Months Ended March 31,.2023 = . Advertising, Three Months Ended March 31,.2024 = $ 35,635. Advertising, Three Months Ended March 31,.2023 = $ 28,101. Other revenue, Three Months Ended March 31,.2024 = 380. Other revenue, Three Months Ended March 31,.2023 = 205. Family of Apps, Three Months Ended March 31,.2024 = 36,015. Family of Apps, Three Months Ended March 31,.2023 = 28,306. Reality Labs, Three Months Ended March 31,.2024 = 440. Reality Labs, Three Months Ended March 31,.2023 = 339. Total revenue, Three Months Ended March 31,.2024 = $ 36,455. Total revenue, Three Months Ended March 31,.2023 = $ 28,645. Income (loss) from operations:, Three Months Ended March 31,.2024 = . Income (loss) from operations:, Three Months Ended March 31,.2023 = . Family of Apps, Three Months Ended March 31,.2024 = $",
+          "source": "text_context_7",
+          "content_type": "text",
+          "query": "How much did meta spend on research and development in q3 2024?",
+          "rerank_score": -1.7621922983156224,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.116389274597168,
+            "bm25": 0.0,
+            "tfidf": 0.02908941015496727,
+            "financial": 1.4000000000000001
+          }
+        }
+      ],
+      "relevant_docs": [
+        "rd_expenses",
+        "cost_breakdown"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.2857142857142857,
+        "factual_accuracy": 1.0,
+        "completeness": 1.0,
+        "relevance": 0.5833333333333334,
+        "fluency": 1.0,
+        "bleu_score": 0.36363636363636365,
+        "rouge_1": 0.5714285714285714,
+        "rouge_2": 0.3333333333333333,
+        "rouge_l": 0.5714285714285714
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.6726666666666666,
+        "user_satisfaction": 0.6053999999999999,
+        "task_completion": 0.7,
+        "response_time": 2.5758557319641113,
+        "confidence_score": 0.4066666666666667
+      },
+      "timestamp": "2025-07-28T21:55:11.799031",
+      "metadata": {
+        "query_type": "factual",
+        "complexity": "simple",
+        "evaluation_focus": [
+          "expense_accuracy",
+          "categorization"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q13",
+      "query": "What factors contributed to Meta's improved profitability in Q1 2024 versus Q1 2023?",
+      "expected_answer": "Revenue growth, operational efficiency improvements, and cost management contributed to higher profitability",
+      "generated_answer": "Meta's profitability in Q1 2024 significantly improved compared to Q1 2023, primarily due to:\n\n1.  **Increased Net Income:** Net income rose to $12,369 million in Q1 2024 from $5,709 million in Q1 2023, representing a 116.65% increase.\n2.  **Higher Total Income from Operations:** Total income from operations increased to $13,818 million in Q1 2024 from $7,227 million in Q1 2023, a 91.19% increase.\n3.  **Strong Family of Apps Performance:** Income from the Family of Apps segment significantly increased to $17,664 million in Q1 2024, up from $11,219 million in Q1 2023. The company also noted \"strong momentum within our Family of Apps\".\n4.  **Reduced Reality Labs Operating Loss:** The operating loss for Reality Labs decreased slightly to $3,846 million in Q1 2024 from $3,992 million in Q1 2023.",
+      "retrieved_docs": [
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "What factors contributed to Meta's improved profitability in Q1 2024 versus Q1 2023?",
+          "rerank_score": -0.014317281201541854,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.6467586755752563,
+            "bm25": 0.15274134193029304,
+            "tfidf": 0.1746723569732496,
+            "financial": 2.9
+          }
+        },
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_5",
+          "content_type": "text",
+          "query": "What factors contributed to Meta's improved profitability in Q1 2024 versus Q1 2023?",
+          "rerank_score": -0.8687594575076246,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.053894996643066,
+            "bm25": 0.4786225767367014,
+            "tfidf": 0.02095264643617748,
+            "financial": 3.15
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "What factors contributed to Meta's improved profitability in Q1 2024 versus Q1 2023?",
+          "rerank_score": -1.1540874518260553,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.594520568847656,
+            "bm25": 1.0,
+            "tfidf": 0.09147183808671554,
+            "financial": 2.1
+          }
+        },
+        {
+          "content": "17,664. Family of Apps, Three Months Ended March 31,.2023 = $ 11,219. Reality Labs, Three Months Ended March 31,.2024 = (3,846). Reality Labs, Three Months Ended March 31,.2023 = (3,992). Total income from operations, Three Months Ended March 31,.2024 = $ 13,818. Total income from operations, Three Months Ended March 31,.2023 = $ 7,227",
+          "source": "text_context_4",
+          "content_type": "text",
+          "query": "What factors contributed to Meta's improved profitability in Q1 2024 versus Q1 2023?",
+          "rerank_score": -1.7037410482676096,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.753133296966553,
+            "bm25": 0.0,
+            "tfidf": 0.05008180346007511,
+            "financial": 2.95
+          }
+        },
+        {
+          "content": "Cash flows from operating activities, Three Months Ended March 31,.2024 = . Cash flows from operating activities, Three Months Ended March 31,.2023 = . Net income, Three Months Ended March 31,.2024 = $ 12,369. Net income, Three Months Ended March 31,.2023 = $ 5,709. Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2024 = . Adjustments to reconcile net income to net cash provided by operating activities:, Three Months Ended March 31,.2023 = . Depreciation and amortization, Three Months Ended March 31,.2024 = 3,374. Depreciation and amortization, Three Months Ended March 31,.2023 = 2,524. Share-based compensation, Three Months Ended March 31,.2024 = 3,562. Share-based compensation, Three Months Ended March 31,.2023 = 3,051. Deferred income taxes, Three Months Ended March 31,.2024 = (456). Deferred income taxes, Three Months Ended March 31,.2023 = (620). Impairment",
+          "source": "data/source/Meta\u2019s Q1 2024 Financial Report.pdf:chunk_24",
+          "content_type": "financial_text",
+          "query": "What factors contributed to Meta's improved profitability in Q1 2024 versus Q1 2023?",
+          "rerank_score": -1.7285039985253563,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.588381290435791,
+            "bm25": 0.03596776114657268,
+            "tfidf": 0.05237718241544591,
+            "financial": 2.45
+          }
+        }
+      ],
+      "relevant_docs": [
+        "profitability_analysis",
+        "efficiency_metrics"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.02531645569620253,
+        "factual_accuracy": 0.5,
+        "completeness": 0.8,
+        "relevance": 0.5833333333333334,
+        "fluency": 0.76953125,
+        "bleu_score": 0.028985507246376812,
+        "rouge_1": 0.16666666666666666,
+        "rouge_2": 0.0,
+        "rouge_l": 0.08333333333333333
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.7999999999999999,
+        "user_satisfaction": 0.72,
+        "task_completion": 1.0,
+        "response_time": 17.56931233406067,
+        "confidence_score": 1.0
+      },
+      "timestamp": "2025-07-28T21:55:29.371395",
+      "metadata": {
+        "query_type": "analytical",
+        "complexity": "high",
+        "evaluation_focus": [
+          "factor_identification",
+          "causal_analysis"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q14",
+      "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+      "expected_answer": "Regional breakdown of advertising revenue showing growth patterns by geography",
+      "generated_answer": "I cannot find information about Meta's Q1 2024 advertising revenues across different geographical regions in the provided context.",
+      "retrieved_docs": [
+        {
+          "content": "Revenue:, Three Months Ended March 31,.2024 = . Revenue:, Three Months Ended March 31,.2023 = . Advertising, Three Months Ended March 31,.2024 = $ 35,635. Advertising, Three Months Ended March 31,.2023 = $ 28,101. Other revenue, Three Months Ended March 31,.2024 = 380. Other revenue, Three Months Ended March 31,.2023 = 205. Family of Apps, Three Months Ended March 31,.2024 = 36,015. Family of Apps, Three Months Ended March 31,.2023 = 28,306. Reality Labs, Three Months Ended March 31,.2024 = 440. Reality Labs, Three Months Ended March 31,.2023 = 339. Total revenue, Three Months Ended March 31,.2024 = $ 36,455. Total revenue, Three Months Ended March 31,.2023 = $ 28,645. Income (loss) from operations:, Three Months Ended March 31,.2024 = . Income (loss) from operations:, Three Months Ended March 31,.2023 = . Family of Apps, Three Months Ended March 31,.2024 = $",
+          "source": "text_context_7",
+          "content_type": "text",
+          "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+          "rerank_score": 0.530505187307883,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": 0.109349325299263,
+            "bm25": 0.0,
+            "tfidf": 0.04510304792118559,
+            "financial": 2.4
+          }
+        },
+        {
+          "content": "GAAP advertising revenue, Three Months Ended March 31,.2023 = $ 28,101. Foreign exchange effect on 2024 advertising revenue using 2023 rates, Three Months Ended March 31,.2024 = (105). Foreign exchange effect on 2024 advertising revenue using 2023 rates, Three Months Ended March 31,.2023 = . Advertising revenue excluding foreign exchange effect, Three Months Ended March 31,.2024 = $ 35,530. Advertising revenue excluding foreign exchange effect, Three Months Ended March 31,.2023 = . GAAP advertising revenue year-over-year change%, Three Months Ended March 31,.2024 = 27 %. GAAP advertising revenue year-over-year change%, Three Months Ended March 31,.2023 = . Advertising revenue excluding foreign exchange effect year-over-year change%, Three Months Ended March 31,.2024 = 26 %. Advertising revenue excluding foreign exchange effect year-over-year change%, Three Months Ended March 31,.2023 = . Net cash provided by operating activities, Three Months Ended March 31,.2024 = $ 19,246. Net cash provided by operating activities, Three Months Ended March",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+          "rerank_score": 0.4589536764244453,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -0.4572465121746063,
+            "bm25": 0.7696451807717402,
+            "tfidf": 0.12960657400901884,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+          "rerank_score": -0.6170419140431702,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.2387855052948,
+            "bm25": 0.8693964314673508,
+            "tfidf": 0.20748786805274744,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "GAAP revenue, Three Months Ended March 31,.2024 = $ 36,455. GAAP revenue, Three Months Ended March 31,.2023 = $ 28,645. Foreign exchange effect on 2024 revenue using 2023 rates, Three Months Ended March 31,.2024 = (106). Foreign exchange effect on 2024 revenue using 2023 rates, Three Months Ended March 31,.2023 = . Revenue excluding foreign exchange effect, Three Months Ended March 31,.2024 = $ 36,349. Revenue excluding foreign exchange effect, Three Months Ended March 31,.2023 = . GAAP revenue year-over-year change%, Three Months Ended March 31,.2024 = 27 %. GAAP revenue year-over-year change%, Three Months Ended March 31,.2023 = . Revenue excluding foreign exchange effect year-over-year change%, Three Months Ended March 31,.2024 = 27 %. Revenue excluding foreign exchange effect year-over-year change%, Three Months Ended March 31,.2023 = . GAAP advertising revenue, Three Months Ended March 31,.2024 = $ 35,635.",
+          "source": "text_context_3",
+          "content_type": "text",
+          "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+          "rerank_score": -1.0991373398931354,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.1366167068481445,
+            "bm25": 0.4796120491038842,
+            "tfidf": 0.03737553713434341,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "Revenue, Three Months Ended March 31,.2024 = $ 36,455. Revenue, Three Months Ended March 31,.2023 = $ 28,645. Revenue, % Change = 27 %. Costs and expenses, Three Months Ended March 31,.2024 = 22,637. Costs and expenses, Three Months Ended March 31,.2023 = 21,418. Costs and expenses, % Change = 6 %. Income from operations, Three Months Ended March 31,.2024 = $ 13,818. Income from operations, Three Months Ended March 31,.2023 = $ 7,227. Income from operations, % Change = 91 %. Operating margin, Three Months Ended March 31,.2024 = 38 %. Operating margin, Three Months Ended March 31,.2023 = 25 %. Operating margin, % Change = . Provision for income taxes, Three Months Ended March 31,.2024 = $ 1,814. Provision for income taxes, Three Months Ended March 31,.2023 = $ 1,598. Provision for income taxes, % Change = 14 %. Effective tax rate, Three Months Ended March 31,.2024 = 13 %.",
+          "source": "data/source/Meta\u2019s Q1 2024 Financial Report.pdf:chunk_1",
+          "content_type": "financial_text",
+          "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+          "rerank_score": -1.6871293134290697,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -5.302377700805664,
+            "bm25": 0.0,
+            "tfidf": 0.02547844595463943,
+            "financial": 2.15
+          }
+        }
+      ],
+      "relevant_docs": [
+        "geographic_revenue",
+        "regional_breakdown"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.037037037037037035,
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "relevance": 0.6666666666666666,
+        "fluency": 1.0,
+        "bleu_score": 0.05555555555555555,
+        "rouge_1": 0.1,
+        "rouge_2": 0.0,
+        "rouge_l": 0.1
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.5867336572011311,
+        "user_satisfaction": 0.5280602914810181,
+        "task_completion": 0.7,
+        "response_time": 8.229983806610107,
+        "confidence_score": 0.45333333333333337
+      },
+      "timestamp": "2025-07-28T21:55:37.602512",
+      "metadata": {
+        "query_type": "comparative",
+        "complexity": "high",
+        "evaluation_focus": [
+          "geographic_analysis",
+          "revenue_attribution"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    },
+    {
+      "query_id": "Q15",
+      "query": "Based on Q1 2024 performance, what are Meta's key opportunities and challenges?",
+      "expected_answer": "Opportunities in AI and metaverse, challenges in regulation and competition",
+      "generated_answer": "Based on Q1 2024 performance and outlook, Meta's key opportunities and challenges are:\n\n**Opportunities:**\n*   **AI Development:** The new version of Meta AI with Llama 3 is a step towards building the world's leading AI. The company is accelerating infrastructure investments to support its artificial intelligence (AI) roadmap, with capital expenditures expected to increase next year as they invest aggressively in AI research and product development efforts.\n*   **Growth in Family of Apps & Metaverse:** Meta is seeing healthy growth across its apps and strong momentum within its Family of Apps, while continuing to make steady progress building the metaverse. These longer-term AI and Reality Labs initiatives have the potential to transform how people interact with their services.\n\n**Challenges:**\n*   **Regulatory Headwinds:** Meta continues to monitor an active regulatory landscape, including increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact its business and financial results.\n*   **Increased Costs and Losses:** Full-year 2024 total expenses are expected to be higher, in the range of $96-99 billion (updated from $94-99 billion) due to higher infrastructure and legal costs. Reality Labs operating losses are also expected to increase meaningfully year-over-year.\n*   **Foreign Currency Headwinds:** For the second quarter of 2024, foreign currency is anticipated to be a 1% headwind to year-over-year total revenue growth.",
+      "retrieved_docs": [
+        {
+          "content": "MENLO PARK, Calif. - April 24, 2024 - Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2024.\n\"It's been a good start to the year,\" said Mark Zuckerberg, Meta founder and CEO. \"The new version of Meta AI with Llama 3 is another  step  towards  building  the  world's  leading  AI.  We're  seeing  healthy  growth  across  our  apps  and  we  continue  making steady progress building the metaverse as well.\"",
+          "source": "text_context_0",
+          "content_type": "text",
+          "query": "Based on Q1 2024 performance, what are Meta's key opportunities and challenges?",
+          "rerank_score": 0.05275501161791263,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -1.3046996593475342,
+            "bm25": 0.4614145950511963,
+            "tfidf": 0.19520817729418188,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.\nQ1 was a good start to the year. We're seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives that have the potential to transform the way people interact with our services over the coming years.",
+          "source": "text_context_1",
+          "content_type": "text",
+          "query": "Based on Q1 2024 performance, what are Meta's key opportunities and challenges?",
+          "rerank_score": -0.923343653794064,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -3.673619031906128,
+            "bm25": 0.8737480454525527,
+            "tfidf": 0.051112984034992016,
+            "financial": 1.6
+          }
+        },
+        {
+          "content": "Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram, and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.",
+          "source": "text_context_2",
+          "content_type": "text",
+          "query": "Based on Q1 2024 performance, what are Meta's key opportunities and challenges?",
+          "rerank_score": -1.5326642257501915,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -4.568020820617676,
+            "bm25": 0.16942808590885183,
+            "tfidf": 0.21458054013110656,
+            "financial": 1.1
+          }
+        },
+        {
+          "content": "We expect second quarter 2024 total revenue to be in the range of $36.5-39 billion. Our guidance assumes foreign currency is a 1% headwind to year-over-year total revenue growth, based on current exchange rates.\nWe expect full-year 2024 total expenses to be in the range of $96-99 billion, updated from our prior outlook of $94-99 billion due to higher infrastructure and legal costs. For Reality Labs, we continue to expect operating losses to increase meaningfully year-over-year due to our ongoing product development efforts and our investments to further scale our ecosystem.\nWe anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap. While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.\nAbsent any changes to our tax landscape, we expect our full-year 2024 tax rate to be in the mid-teens.",
+          "source": "text_context_6",
+          "content_type": "text",
+          "query": "Based on Q1 2024 performance, what are Meta's key opportunities and challenges?",
+          "rerank_score": -2.3417198696511745,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -7.532313823699951,
+            "bm25": 0.9358932993548806,
+            "tfidf": 0.048215566600572704,
+            "financial": 2.15
+          }
+        },
+        {
+          "content": "factors affecting the payment of dividends. These and other potential risks and uncertainties that could cause actual results to differ from the results predicted are more fully detailed under the caption \"Risk Factors\" in our Annual Report on Form 10-K filed with the SEC on February 2, 2024, which is available on our Investor Relations website at investor.fb.com and on the SEC website at www.sec.gov.  Additional  information  will  also  be  set  forth  in  our  Quarterly  Report  on  Form  10-Q  for  the  quarter  ended March 31, 2024. In addition, please note that the date of this press release is April 24, 2024, and any forward-looking statements contained herein are based on assumptions that we believe to be reasonable as of this date. We undertake no obligation to update these statements as a result of new information or future events.\nFor a discussion of limitations in the measurement of certain of our community metrics, see the section entitled \"Limitations of Key Metrics and Other Data\" in our most recent quarterly or annual report filed with the SEC.",
+          "source": "text_context_7",
+          "content_type": "text",
+          "query": "Based on Q1 2024 performance, what are Meta's key opportunities and challenges?",
+          "rerank_score": -2.497494676296773,
+          "rerank_method": "hybrid",
+          "rerank_components": {
+            "cross_encoder": -7.6226019859313965,
+            "bm25": 1.0,
+            "tfidf": 0.14364078717190584,
+            "financial": 1.4000000000000001
+          }
+        }
+      ],
+      "relevant_docs": [
+        "outlook",
+        "strategic_discussion"
+      ],
+      "retrieval_metrics": {
+        "precision_at_1": 0.0,
+        "precision_at_3": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "map_score": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "answer_metrics": {
+        "exact_match": 0.0,
+        "partial_match": 0.032679738562091505,
+        "factual_accuracy": 1.0,
+        "completeness": 0.8,
+        "relevance": 0.75,
+        "fluency": 0.8456221198156681,
+        "bleu_score": 0.03333333333333333,
+        "rouge_1": 0.625,
+        "rouge_2": 0.2222222222222222,
+        "rouge_l": 0.6
+      },
+      "end_to_end_metrics": {
+        "overall_quality": 0.8618944676717122,
+        "user_satisfaction": 0.775705020904541,
+        "task_completion": 0.7,
+        "response_time": 4.071943283081055,
+        "confidence_score": 0.9333333333333332
+      },
+      "timestamp": "2025-07-28T21:55:41.677567",
+      "metadata": {
+        "query_type": "strategic",
+        "complexity": "high",
+        "evaluation_focus": [
+          "strategic_reasoning",
+          "context_integration"
+        ],
+        "config": {
+          "optimization": true,
+          "reranking": true,
+          "hybrid": true
+        }
+      }
+    }
+  ],
+  "aggregate_metrics": {
+    "total_queries": 15,
+    "retrieval_metrics": {
+      "precision_at_1": 0.0,
+      "precision_at_3": 0.0,
+      "precision_at_5": 0.0,
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "map_score": 0.0,
+      "ndcg_at_5": 0.0
+    },
+    "answer_quality_metrics": {
+      "exact_match": 0.0,
+      "partial_match": 0.1046712538475169,
+      "factual_accuracy": 0.8288888888888889,
+      "completeness": 0.7000000000000001,
+      "relevance": 0.628523176170235,
+      "fluency": 0.8807544377480226,
+      "bleu_score": 0.124167632479837,
+      "rouge_1": 0.3867674917674918,
+      "rouge_2": 0.15767195767195769,
+      "rouge_l": 0.36001534413299113
+    },
+    "end_to_end_metrics": {
+      "overall_quality": 0.7606456930584378,
+      "user_satisfaction": 0.6845811237525941,
+      "task_completion": 0.8599999999999999,
+      "avg_response_time": 8.567209307352702,
+      "confidence_score": 0.6897777777777778
+    },
+    "query_types": {
+      "factual": 9,
+      "procedural": 3,
+      "comparison": 2,
+      "summary": 1
+    },
+    "performance_distribution": {
+      "min_score": 0.502,
+      "max_score": 0.9451441971460979,
+      "avg_score": 0.7606456930584378,
+      "score_distribution": {
+        "excellent": 1,
+        "good": 9,
+        "fair": 5,
+        "poor": 0
+      }
+    }
+  },
+  "performance_analysis": {
+    "query_type_performance": {
+      "factual": {
+        "avg_quality": 0.7347373665968577,
+        "count": 4,
+        "best_score": 0.8170803136825562,
+        "worst_score": 0.6673333333333333
+      },
+      "comparison": {
+        "avg_quality": 0.7037473734219868,
+        "count": 2,
+        "best_score": 0.7681755520502725,
+        "worst_score": 0.6393191947937011
+      },
+      "multi_step": {
+        "avg_quality": 0.502,
+        "count": 1,
+        "best_score": 0.502,
+        "worst_score": 0.502
+      },
+      "analytical": {
+        "avg_quality": 0.8313661956787108,
+        "count": 2,
+        "best_score": 0.8627323913574219,
+        "worst_score": 0.7999999999999999
+      },
+      "summary": {
+        "avg_quality": 0.836794728120168,
+        "count": 2,
+        "best_score": 0.8735894562403361,
+        "worst_score": 0.7999999999999999
+      },
+      "trend": {
+        "avg_quality": 0.8311470130284627,
+        "count": 1,
+        "best_score": 0.8311470130284627,
+        "worst_score": 0.8311470130284627
+      },
+      "causal": {
+        "avg_quality": 0.9451441971460979,
+        "count": 1,
+        "best_score": 0.9451441971460979,
+        "worst_score": 0.9451441971460979
+      },
+      "comparative": {
+        "avg_quality": 0.5867336572011311,
+        "count": 1,
+        "best_score": 0.5867336572011311,
+        "worst_score": 0.5867336572011311
+      },
+      "strategic": {
+        "avg_quality": 0.8618944676717122,
+        "count": 1,
+        "best_score": 0.8618944676717122,
+        "worst_score": 0.8618944676717122
+      }
+    },
+    "complexity_performance": {},
+    "best_performing_queries": [
+      {
+        "query_id": "Q10",
+        "query": "How has Meta's investment in Reality Labs affected profitability?",
+        "score": 0.9451441971460979
+      },
+      {
+        "query_id": "Q7",
+        "query": "Summarize Meta's operating expenses breakdown in Q1 2024",
+        "score": 0.8735894562403361
+      },
+      {
+        "query_id": "Q6",
+        "query": "Based on Q1 2024 results, what are the key drivers of Meta's revenue growth?",
+        "score": 0.8627323913574219
+      }
+    ],
+    "worst_performing_queries": [
+      {
+        "query_id": "Q4",
+        "query": "How did Meta's Family of Apps revenue compare between Q1 2024 and Q1 2023?",
+        "score": 0.6393191947937011
+      },
+      {
+        "query_id": "Q14",
+        "query": "How do Meta's Q1 2024 advertising revenues compare across different geographical regions?",
+        "score": 0.5867336572011311
+      },
+      {
+        "query_id": "Q5",
+        "query": "What was Meta's operating margin in Q1 2024 and how does it compare to the industry average?",
+        "score": 0.502
+      }
+    ],
+    "common_failure_patterns": []
+  },
+  "ablation_study": {},
+  "failure_analysis": [],
+  "improvement_suggestions": []
+}
