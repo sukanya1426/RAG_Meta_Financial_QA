@@ -1,0 +1,22 @@
+[
+  {
+    "query": "What was Meta's revenue in Q1 2024?",
+    "response": "Meta's revenue in Q1 2024 (Three Months Ended March 31, 2024) was $36,455 million. This is also stated as $36.46 billion in the report.",
+    "expected_answer": "$36.455 billion"
+  },
+  {
+    "query": "What was Meta's net income in Q1 2024 compared to Q1 2023?",
+    "response": "Meta's net income in Q1 2024 was $12,369 million, compared to $5,709 million in Q1 2023, representing an increase of 117%.",
+    "expected_answer": "Q1 2024: $12.369 billion, Q1 2023: $5.709 billion (117% increase)"
+  },
+  {
+    "query": "Summarize Meta's operating expenses in Q1 2024.",
+    "response": "Meta's total operating expenses in Q1 2024 were $22,637 million, an increase of 6% year-over-year.\n\nThe breakdown of these expenses is as follows:\n*   **Cost of revenue:** $6,640 million\n*   **Research and development:** $9,978 million\n*   **Marketing and sales:** $2,564 million\n*   **General and administrative:** $3,455 million",
+    "expected_answer": "Operating expenses breakdown including R&D, sales & marketing, and general & administrative costs"
+  },
+  {
+    "query": "What were the key financial highlights for Meta in Q1 2024?",
+    "response": "I cannot find specific financial highlights such as revenue, net income, or other numerical data for Meta in Q1 2024 within the provided context. The text only states that \"Q1 was a good start to the year\" and that Meta is \"seeing strong momentum within our Family of Apps and are making important progress on our longer-term AI and Reality Labs initiatives.\"",
+    "expected_answer": "Revenue: $36.455 billion (27% increase), Net income: $12.369 billion (117% increase), Operating margin: 38%, EPS: $4.71, DAP: 3.24 billion (7% increase)"
+  }
+]
